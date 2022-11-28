@@ -46,10 +46,8 @@
 <img width="100%" alt="스크린샷 2022-09-08 18 42 54" src="https://user-images.githubusercontent.com/99636339/189090617-5439025e-a74d-41d3-aa75-0f4c49bf3336.png">
 </p><br>
 
-Screenshot
-==========
 
-## 📌 본인 구현 기능
+## 📌 담당 기능
 
 메인 페이지
 --------
