@@ -46,76 +46,50 @@
 <img width="100%" alt="스크린샷 2022-09-08 18 42 54" src="https://user-images.githubusercontent.com/99636339/189090617-5439025e-a74d-41d3-aa75-0f4c49bf3336.png">
 </p><br>
 
-
 ## 📌 담당 기능
 
-메인 페이지
+전체 커뮤니티 페이지
 --------
-<img width="200" alt="스크린샷 2022-11-07 15 44 27" src="https://user-images.githubusercontent.com/99636339/200242590-f080f309-df40-402a-9d92-4d363374930c.png">
-<br><br>
+<img width="600" alt="메인" src="https://user-images.githubusercontent.com/108640593/204320253-3ad75e26-ff71-4620-ab96-73b3c45fa9e1.png">
 
-- 총 5개의 화면으로 나누어 구성<br>
+- 메인 페이지 / 카테고리별 페이지 / 전체 게시글 / 게시글 작성폼 / 댓글 작성 <br>
 
-메인 페이지1
+반응형 페이지
 ---------
-<img width="600" alt="스크린샷 2022-09-06 18 54 26" src="https://user-images.githubusercontent.com/99636339/200242762-f7bcdc66-ab58-4960-92b2-c20c171a5272.png">
-- animation적용 하여 5개의 background-img를 animaition-iteration-count:infinite를 적용하여 변경함<br><br>
+<img width="600" alt="스크린샷 2022-09-06 18 54 26" src="https://user-images.githubusercontent.com/108640593/204320093-09e1b8e8-eea0-46c3-a11b-537ed1607cdf.gif">
+
+- **BootStrap5 활용** 그리드 반응형 레이아웃 구현<br>
+- **AOS 라이브러리 활용** 페이지 스크롤 애니메이션 효과<br><br>
 
 
-메인 페이지2
+실시간 검색어
 ---------
-<img width="600" alt="스크린샷 2022-09-08 15 54 30" src="https://user-images.githubusercontent.com/99636339/200243338-22192e33-d592-461e-a2d8-ff1c4850ba47.png">
-- 스크롤 event를 생성하여 scroll 의 길이가 700이상이면 nav에게 addClass적용하여 로고,nav배경 색 변경<br><br>
+<img width="600" alt="스크린샷 2022-09-08 15 54 30" src="https://user-images.githubusercontent.com/108640593/204320173-7f9e80b5-9ccf-484b-b54f-fb07df8f9c59.gif">
+
+- **DataTables.js 라이브러리 활용** 게시글 리스트 페이지네이션 및 게시글 검색 기능 구현<br>
+- **웹 스토리지(location.href) 활용** 실시간 인기 검색어 기능<br><br>
 
 
-메인 페이지3
+게시글
 ---------
-<img width="600" alt="스크린샷 2022-09-08 15 58 31" src="https://user-images.githubusercontent.com/99636339/200243973-668a4ccb-7b44-47dc-9cda-1dcb8682b0a2.png">
-- 반응형 페이지로 제작<br>
-- 시즌 별 어종 정보 페이지로 href<br><br>
+<img width="600" alt="스크린샷 2022-09-08 15 58 31" src="https://user-images.githubusercontent.com/108640593/204320219-c091f478-01b5-4d72-a5c4-3aa917d20cdb.gif">
+
+- 게시글 작성 및 첨부파일 추가 기능<br><br>
 
 
-메인 페이지4
+댓글
 ---------
-<img width="600" alt="스크린샷 2022-09-08 16 00 52" src="https://user-images.githubusercontent.com/99636339/200244325-69497cdc-73f1-4e72-adeb-adb592742c3d.png">
-- 반응형 페이지로 제작
-- img hover시 img-scale(0.2)적용<br>
-- img space-between 적용<br>
-- img 클릭시 shop 페이지로 href<br><br>
+<img width="600" alt="스크린샷 2022-09-08 16 00 52" src="https://user-images.githubusercontent.com/108640593/204320232-990fbbcf-039a-482b-bd29-fe7f27531dce.gif">
+
+- 댓글 추가 및 삭제 기능
+- 댓글 추가 시 유효성 체크 기능 추가
 
 
-메인 페이지5
+채팅
 ---------
-<img width="600" alt="스크린샷 2022-09-08 16 05 50" src="https://user-images.githubusercontent.com/99636339/200244665-4a5a67a1-a2fd-4f14-822d-cb4208258b88.png">
-- bootstrap을 이용한 Grid 사용으로 반응형 페이지 제작<br>
-- Media 클릭시 낚시 정보가 모여있는 Media페이지로 href<br><br>
+<img width="600" alt="스크린샷 2022-09-08 16 05 50" src="https://user-images.githubusercontent.com/108640593/204320246-2e13971e-b2ae-4220-9e52-2e9034f13c35.gif">
 
-
-메인 페이지<챗봇>
--------------
-<img width="600" alt="스크린샷 2022-09-08 16 11 42" src="https://user-images.githubusercontent.com/99636339/200245026-b63023ed-a9bc-4d6c-a2d9-063168a234cb.png">
-- AI를 활용한 챗봇이 아닙니다.(Js를 사용한 페이지 이동서비스 개념)<br>
-- 채팅 validation 체크 후 입력 값의 앞 글자 두개를 subtext하여 일치 하면 해당 되는 페이지 출력<br><br>
-
-시즌별 어종 정보
-------------
-<img width="600" alt="스크린샷 2022-09-08 16 17 14" src="https://user-images.githubusercontent.com/99636339/200245447-45d8802e-4df0-42da-96d7-c1168bf9c93f.png">
-- 시즌을 선택하지 않았다면 어종 정보를 모두 display-none처리<br><br>
-
-
-시즌별 어종 정보
-------------
-<img width="600" alt="스크린샷 2022-09-08 16 20 53" src="https://user-images.githubusercontent.com/99636339/200245709-3ef828f7-e2d6-4fec-bec6-2ee1f6040968.png">
-- selectbox에 onclick event 사용 하여 해당 시즌에 일치 하는 어종 정보들의 css display-block으로 변경<br>
-- 해당 되지 않는 다면 display-none<br><br>
-
-
-Footer
-------------
-<img width="1425" alt="스크린샷 2022-09-08 16 24 46" src="https://user-images.githubusercontent.com/99636339/200246335-16df2707-748b-4aac-ab65-18db6831201b.png">
-- bootstrap5를 사용하여 footer 제작<br>
-- Grid를 이용한 배치<br><br>
-
+- **Bootstrap Modal 활용** 채팅 폼 구현<br>
 
 
 ## 🔗 링크
